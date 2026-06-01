@@ -7,15 +7,25 @@ Based on your workspace directory layout, the modular components are organized a
 
 
 ├── nst/
+
 │   ├── model.py          # NST neural network setup and device configuration (CPU/GPU)
+
 │   └── transfer.py       # Optimization loop for running Neural Style Transfer
+
 ├── styles/
+
 │   └── pipelines.py      # Core CV logic for Cartoon, Oil Painting, Sketch, etc.
+
 ├── ui/
+
 │   └── layout.py         # Custom HTML sections and CSS styling configurations
+
 ├── utils/
+
 │   └── image_ops.py      # Image loading, preprocessing, and resizing utilities
+ 
 ├── app.py                # Main application orchestration script and Gradio interface
+
 └── requirements.txt      # List of dependencies
 
 🎨 Supported Artistic Styles
